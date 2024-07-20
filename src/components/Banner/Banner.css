@@ -1,0 +1,172 @@
+.banner {
+    background-color: #121a23;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 1vw 8vw;
+    margin-top: 80px;
+  }
+  
+  .text-container {
+    max-width: 60%;
+  }
+  
+  .banner span {
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  .banner h1 {
+    color: #0CAF69;
+    font-size: 4rem;
+    letter-spacing: 1px;
+  }
+  
+  .banner p {
+    width: 100%;
+    color: #f9f9f9;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  
+  .container-banner-btn .fa-whatsapp {
+    padding: 13px 35px;
+    color: #0CAF69;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+    border: solid 2px #0CAF69;
+  }
+  
+  .container-banner-btn .icon-youtube {
+    padding: 13px 35px;
+    color: #D10E32;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+    border: solid 2px #D10E32;
+    margin-left: 10px;
+  }
+  
+  .fa-whatsapp:hover, .icon-youtube:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .image-container {
+    max-width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .image-container img {
+    width: 80%;
+    height: auto;
+    max-width: 500px;
+    filter: drop-shadow(10px 0 20px #0CAF69);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1024px) {
+    .banner {
+      flex-direction: column;
+      height: auto;
+      padding: 2vw 4vw;
+      text-align: center;
+    }
+  
+    .text-container {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .banner span {
+      font-size: 3rem;
+    }
+  
+    .banner h1 {
+      font-size: 3rem;
+    }
+  
+    .banner p {
+      font-size: 1rem;
+    }
+  
+    .image-container {
+      max-width: 100%;
+      justify-content: center;
+    }
+  
+    .image-container img {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      padding: 2vw 2vw;
+    }
+  
+    .banner span {
+      font-size: 2.5rem;
+    }
+  
+    .banner h1 {
+      font-size: 2.5rem;
+    }
+  
+    .banner p {
+      font-size: 0.9rem;
+    }
+  
+    .container-banner-btn .fa-whatsapp, 
+    .container-banner-btn .icon-youtube {
+      padding: 10px 25px;
+      font-size: 1rem;
+    }
+  
+    .image-container img {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      padding: 1vw 1vw;
+    }
+  
+    .banner span {
+      font-size: 2rem;
+    }
+  
+    .banner h1 {
+      font-size: 2rem;
+    }
+  
+    .banner p {
+      font-size: 0.8rem;
+    }
+  
+    .container-banner-btn .fa-whatsapp, 
+    .container-banner-btn .icon-youtube {
+      padding: 8px 20px;
+      font-size: 0.9rem;
+    }
+  
+    .image-container img {
+      width: 100%;
+    }
+  }

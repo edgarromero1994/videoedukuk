@@ -1,0 +1,58 @@
+.card {
+    background-color: #fff;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  cursor: pointer;
+}
+  
+.card .details {
+    height: auto;
+    text-align: start; 
+    padding: 0 10px; 
+}
+  
+.card .details h6 {
+    margin: 5px 0; 
+    font-size: 1.2rem; 
+}
+  
+.card .details .icon-video {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .card .details .icon-video a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+.card .details .icon-video .fa-github,
+.card .details .icon-video .icon-youtube {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: solid 2px;
+}
+
+.card .details .icon-video .fa-github {
+    color: #062639;
+    border-color: #062639;
+}
+
+.card .details .icon-video .icon-youtube {
+    color: #D10E32;
+    border-color: #D10E32;
+}

@@ -1,0 +1,51 @@
+.video-list {
+    padding: 4vw 8vw 0 8vw;
+    text-align: center;
+  }
+  
+  .category-section {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .category-section h2 {
+    margin-top: 30px;
+  }
+  
+  .scroll-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .scroll-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #0CAF69;
+  }
+
+ 
+ 
+  
+  .box-card {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-top: 20px;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+  }
