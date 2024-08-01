@@ -1,19 +1,36 @@
-const API_URL = "https://apiedukuk.vercel.app/videos";
+const API_URL = "https://apiedukuk.vercel.app/videos"
 
-// Para obtener todos los videos
-export const fetchVideos = async () => {
+export const fetchVideos = async ()  => {
   try {
     const response = await fetch(API_URL);
-    if (!response.ok) {
-      throw new Error("Network response was not ok");
+    if(!response.ok) {
+      throw new Error("Network respnse was not ok")
     }
     const data = await response.json();
     return data;
   } catch (error) {
-    console.error("Error fetching videos:", error);
+    console.log("Error Fetching video:", error)
     return [];
   }
-};
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Para obtener un video específico por ID
 export const fetchVideoById = async (id) => {

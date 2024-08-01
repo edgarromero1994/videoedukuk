@@ -21,7 +21,7 @@ const Nav = () => {
 
         <div className="nav-grande">
           <ul>
-            <li><Link to="/cursos">Cursos</Link></li>
+            <li><Link to="/">Cursos</Link></li>
             <li><Link to="/sobre-mi">Sobre Mi</Link></li>
             <li><Link to="/proyecto">Proyectos</Link></li>
             
@@ -42,7 +42,7 @@ const Nav = () => {
           </div>
           <ul className={`menu ${isOpen ? 'active' : ''}`}>
             <li><Link to="/" onClick={closeMenu} >Home</Link></li>
-            <li><Link to="/cursos" onClick={closeMenu}>Cursos</Link></li>
+            <li><Link to="/" onClick={closeMenu}>Cursos</Link></li>
             <li><Link to="/sobre-mi" onClick={closeMenu}>Sobre Mi</Link></li>
             <li><Link to="/proyectos" onClick={closeMenu}>Proyectos</Link></li>
           </ul>

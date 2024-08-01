@@ -1,5 +1,5 @@
 .card {
-    background-color: #fff;
+    background-color: #1e2a36;
     color: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -48,8 +48,8 @@
 }
 
 .card .details .icon-video .fa-github {
-    color: #062639;
-    border-color: #062639;
+    color: #ccc;
+    border-color: #ccc;
 }
 
 .card .details .icon-video .icon-youtube {

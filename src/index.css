@@ -9,22 +9,22 @@
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: #0E161C;
 }
 
 h2 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #062639;
+    color: #fff;
 }
 p {
-    color: #062639;
+    color: #ccccd6;
     font-size: 1rem;
 }
 
 h6 {
-    font-size: 1.1rem;
-    color: #132b52;
+    font-size: 1rem;
+    color: #ccc;
 }
 
 span {

@@ -3,7 +3,7 @@
     top: 0;
     position: fixed;
     width: 100%;
-    background-color: #fff;
+    background-color: #1B2832;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,7 +37,7 @@
   
   nav ul li a {
     text-decoration: none;
-    color: #062639;
+    color: #fff;
     font-weight: 600;
     font-size: 1rem;
     transition: color 0.3s ease;
@@ -84,7 +84,7 @@
   }
   
   nav .user:hover {
-    background-color: #062639;
+    opacity: 0.9;
   }
   
   .navigation-movil {
@@ -94,6 +94,7 @@
   
   .navigation-movil i {
     margin-right: 30px;
+    color: #fff;
   }
   
   .menu-icon {

@@ -4,15 +4,14 @@ import { fetchVideos } from "../../pages/Api/api";
 import "./ListadoVideo.css";
 
 const ListadoVideo = ({ onVideoSelect }) => {
-  const [videos, setVideos] = useState([]);
   const scrollRef = useRef({});
+  const [videos, setVideos] = useState([]);
 
   useEffect(() => {
     const getVideos = async () => {
       const fetchedVideos = await fetchVideos();
       setVideos(fetchedVideos);
     };
-
     getVideos();
   }, []);
 
@@ -44,7 +43,11 @@ const ListadoVideo = ({ onVideoSelect }) => {
           </div>
           <div className="box-card" ref={el => scrollRef.current[categoria] = el}>
             {categorizedVideos[categoria].map(video => (
-              <CardVideo key={video.id} video={video} onVideoSelect={onVideoSelect} />
+              <CardVideo 
+                key={video.id} 
+                video={video} 
+                onVideoSelect={() => onVideoSelect(video.video, categorizedVideos[categoria])} 
+              />
             ))}
           </div>
         </div>

@@ -11,7 +11,7 @@
 }
 
 .features .fea-base .fea-box {
-    background-color: #fff;
+    background-color: #1e2a36;
     text-align: start;
 }
 
@@ -23,7 +23,7 @@
 .features .fea-base .fea-box h3 {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #062639;
+    color: #fff;
     padding: 13px 0 7px 0;
 }
 

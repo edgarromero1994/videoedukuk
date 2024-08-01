@@ -49,3 +49,25 @@
     width: 300px;
     margin-right: 20px;
   }
+
+  /* Estilo para las tarjetas */
+.card {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+}
+
+/* Estilo personalizado para el scrollbar */
+.box-card::-webkit-scrollbar {
+  height: 12px;
+}
+
+.box-card::-webkit-scrollbar-track {
+  background: #0E161C; /* Color oscuro para el track */
+}
+
+.box-card::-webkit-scrollbar-thumb {
+  background-color: #0CAF69; /* Color oscuro para el thumb */
+  border-radius: 10px;
+  border: 2px solid #0E161C; /* Color oscuro para el borde del thumb */
+}
