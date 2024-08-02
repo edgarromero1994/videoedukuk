@@ -31,3 +31,58 @@
     font-size: 1rem;
     font-weight: 400;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .features {
+        padding: 4vw 6vw 0 6vw;
+    }
+
+    .features .fea-base {
+        grid-template-columns: 1fr;
+    }
+
+    .features .fea-base .fea-box {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .features {
+        padding: 3vw 4vw 0 4vw;
+    }
+
+    .features .fea-base .fea-box i {
+        font-size: 2rem;
+    }
+
+    .features .fea-base .fea-box h3 {
+        font-size: 1.1rem;
+    }
+
+    .features .fea-base .fea-box p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .features {
+        padding: 2vw 2vw 0 2vw;
+    }
+
+    .features .fea-base {
+        grid-gap: 0.5rem;
+    }
+
+    .features .fea-base .fea-box i {
+        font-size: 1.8rem;
+    }
+
+    .features .fea-base .fea-box h3 {
+        font-size: 1rem;
+    }
+
+    .features .fea-base .fea-box p {
+        font-size: 0.8rem;
+    }
+}
