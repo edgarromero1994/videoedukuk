@@ -32,3 +32,16 @@ span {
     color: #494b5f;
 }
 
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+  }
